@@ -1,0 +1,22 @@
+{
+  "package_name": "custom_interface",
+  "output_dir": "/home/user/ros2_ws/build/custom_interface/rosidl_generator_rs/custom_interface",
+  "template_dir": "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/user/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface:srv/MyServiceMessage.idl"
+  ],
+  "ros_interface_files": [
+    "/home/user/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface/srv/MyServiceMessage.idl"
+  ],
+  "target_dependencies": [
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_idiomatic.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg_rmw.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/home/user/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface/srv/MyServiceMessage.idl",
+    "/home/user/ros2_ws/build/custom_interface/rosidl_adapter/custom_interface/srv/MyServiceMessage.idl"
+  ],
+  "package_version": "0.0.0"
+}

@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.001304] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.002513] (-) JobUnselected: {'identifier': 'project_localization'}
+[0.002779] (-) JobUnselected: {'identifier': 'project_mapping'}
+[0.002876] (project_path_planning) JobQueued: {'identifier': 'project_path_planning', 'dependencies': OrderedDict()}
+[0.002944] (project_path_planning) JobStarted: {'identifier': 'project_path_planning'}
+[0.099408] (-) TimerEvent: {}
+[0.219080] (-) TimerEvent: {}
+[0.395457] (-) TimerEvent: {}
+[0.495856] (-) TimerEvent: {}
+[0.596730] (-) TimerEvent: {}
+[0.697117] (-) TimerEvent: {}
+[0.797617] (-) TimerEvent: {}
+[0.898000] (-) TimerEvent: {}
+[0.998429] (-) TimerEvent: {}
+[1.098849] (-) TimerEvent: {}
+[1.199801] (-) TimerEvent: {}
+[1.300183] (-) TimerEvent: {}
+[1.400598] (-) TimerEvent: {}
+[1.500989] (-) TimerEvent: {}
+[1.601418] (-) TimerEvent: {}
+[1.701822] (-) TimerEvent: {}
+[1.802359] (-) TimerEvent: {}
+[1.903407] (-) TimerEvent: {}
+[2.003894] (-) TimerEvent: {}
+[2.107602] (-) TimerEvent: {}
+[2.296504] (-) TimerEvent: {}
+[2.397018] (-) TimerEvent: {}
+[2.498695] (-) TimerEvent: {}
+[2.599967] (-) TimerEvent: {}
+[2.700363] (-) TimerEvent: {}
+[2.800774] (-) TimerEvent: {}
+[2.901573] (-) TimerEvent: {}
+[3.001990] (-) TimerEvent: {}
+[3.102825] (-) TimerEvent: {}
+[3.204949] (-) TimerEvent: {}
+[3.305350] (-) TimerEvent: {}
+[3.406096] (-) TimerEvent: {}
+[3.506502] (-) TimerEvent: {}
+[3.607391] (-) TimerEvent: {}
+[3.708648] (-) TimerEvent: {}
+[3.809572] (-) TimerEvent: {}
+[3.909985] (-) TimerEvent: {}
+[4.010362] (-) TimerEvent: {}
+[4.111078] (-) TimerEvent: {}
+[4.211500] (-) TimerEvent: {}
+[4.311874] (-) TimerEvent: {}
+[4.412888] (-) TimerEvent: {}
+[4.513285] (-) TimerEvent: {}
+[4.613645] (-) TimerEvent: {}
+[4.714000] (-) TimerEvent: {}
+[4.814475] (-) TimerEvent: {}
+[4.824469] (project_path_planning) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/project_path_planning', 'build', '--build-base', '/home/user/ros2_ws/build/project_path_planning/build', 'install', '--record', '/home/user/ros2_ws/build/project_path_planning/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/project_path_planning', 'env': {'ROS_VERSION': '2', 'GAZEBO_MASTER_URI': 'http://2_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '2_xterm', 'PWD': '/home/user/ros2_ws/build/project_path_planning', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/project_path_planning:/home/user/ros2_ws/install/project_mapping:/home/user/ros2_ws/install/project_localization:/home/user/ros2_ws/install/custom_interface:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_ws/install/custom_interface', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/build/project_path_planning/prefix_override:/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages:/home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages:/home/user/ros2_ws/install/project_localization/lib/python3.10/site-packages:/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '2_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://2_xterm:11311', 'ROS_HOSTNAME': '2_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/home/user/ros2_ws/install/custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '780228', 'SLOT_PREFIX': '792410d2-592e-4245-9035-d19e53d7b245', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25450', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20002', '_': '/usr/bin/env'}, 'shell': False}
+[4.914590] (-) TimerEvent: {}
+[5.024281] (-) TimerEvent: {}
+[5.195443] (-) TimerEvent: {}
+[5.295820] (-) TimerEvent: {}
+[5.396246] (-) TimerEvent: {}
+[5.496657] (-) TimerEvent: {}
+[5.597050] (-) TimerEvent: {}
+[5.702236] (-) TimerEvent: {}
+[5.803268] (-) TimerEvent: {}
+[5.903774] (-) TimerEvent: {}
+[6.004208] (-) TimerEvent: {}
+[6.104736] (-) TimerEvent: {}
+[6.206013] (-) TimerEvent: {}
+[6.306899] (-) TimerEvent: {}
+[6.414756] (-) TimerEvent: {}
+[6.515237] (-) TimerEvent: {}
+[6.616026] (-) TimerEvent: {}
+[6.711008] (project_path_planning) StdoutLine: {'line': b'running egg_info\n'}
+[6.712562] (project_path_planning) StdoutLine: {'line': b'writing ../../build/project_path_planning/project_path_planning.egg-info/PKG-INFO\n'}
+[6.712915] (project_path_planning) StdoutLine: {'line': b'writing dependency_links to ../../build/project_path_planning/project_path_planning.egg-info/dependency_links.txt\n'}
+[6.713225] (project_path_planning) StdoutLine: {'line': b'writing entry points to ../../build/project_path_planning/project_path_planning.egg-info/entry_points.txt\n'}
+[6.713543] (project_path_planning) StdoutLine: {'line': b'writing requirements to ../../build/project_path_planning/project_path_planning.egg-info/requires.txt\n'}
+[6.713892] (project_path_planning) StdoutLine: {'line': b'writing top-level names to ../../build/project_path_planning/project_path_planning.egg-info/top_level.txt\n'}
+[6.717708] (-) TimerEvent: {}
+[6.718453] (project_path_planning) StdoutLine: {'line': b"reading manifest file '../../build/project_path_planning/project_path_planning.egg-info/SOURCES.txt'\n"}
+[6.720260] (project_path_planning) StdoutLine: {'line': b"writing manifest file '../../build/project_path_planning/project_path_planning.egg-info/SOURCES.txt'\n"}
+[6.720556] (project_path_planning) StdoutLine: {'line': b'running build\n'}
+[6.720757] (project_path_planning) StdoutLine: {'line': b'running build_py\n'}
+[6.720983] (project_path_planning) StdoutLine: {'line': b'running install\n'}
+[6.721196] (project_path_planning) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.721433] (project_path_planning) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.721627] (project_path_planning) StdoutLine: {'line': b'running install_lib\n'}
+[6.796495] (project_path_planning) StdoutLine: {'line': b'running install_data\n'}
+[6.797563] (project_path_planning) StdoutLine: {'line': b'copying launch/pathplanner.launch.py -> /home/user/ros2_ws/install/project_path_planning/share/project_path_planning/launch\n'}
+[6.799922] (project_path_planning) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.802926] (project_path_planning) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.803610] (project_path_planning) StdoutLine: {'line': b'Copying ../../build/project_path_planning/project_path_planning.egg-info to /home/user/ros2_ws/install/project_path_planning/lib/python3.10/site-packages/project_path_planning-0.0.0-py3.10.egg-info\n'}
+[6.805302] (project_path_planning) StdoutLine: {'line': b'running install_scripts\n'}
+[6.817813] (-) TimerEvent: {}
+[6.909418] (project_path_planning) StdoutLine: {'line': b'Installing go_to_pose script to /home/user/ros2_ws/install/project_path_planning/lib/project_path_planning\n'}
+[6.909919] (project_path_planning) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/project_path_planning/install.log'\n"}
+[6.920549] (-) TimerEvent: {}
+[7.018504] (project_path_planning) CommandEnded: {'returncode': 0}
+[7.021052] (-) TimerEvent: {}
+[7.197176] (project_path_planning) JobEnded: {'identifier': 'project_path_planning', 'rc': 0}
+[7.198968] (-) TimerEvent: {}
+[7.199134] (-) EventReactorShutdown: {}

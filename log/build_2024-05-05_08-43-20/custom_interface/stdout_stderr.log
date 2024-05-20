@@ -1,0 +1,259 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/ros2_ws/build/custom_interface
+[  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  3%] Built target custom_interface__rs
+[  3%] Built target ament_cmake_python_copy_custom_interface
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target custom_interface__cpp
+running egg_info
+creating custom_interface.egg-info
+writing custom_interface.egg-info/PKG-INFO
+writing dependency_links to custom_interface.egg-info/dependency_links.txt
+writing top-level names to custom_interface.egg-info/top_level.txt
+writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+reading manifest file 'custom_interface.egg-info/SOURCES.txt'
+writing manifest file 'custom_interface.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_custom_interface_egg
+[  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface/srv/my_service_message__type_support.cpp.o[0m
+[ 15%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_cpp.so[0m
+[ 15%] Built target custom_interface__rosidl_typesupport_cpp
+[ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface/srv/detail/my_service_message__type_support.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 25%] Built target custom_interface__rosidl_typesupport_introspection_cpp
+[ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface/srv/detail/dds_fastrtps/my_service_message__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 34%] Built target custom_interface__rosidl_typesupport_fastrtps_cpp
+[ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 40%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_c.dir/rosidl_generator_c/custom_interface/srv/detail/my_service_message__functions.c.o[0m
+[ 43%] [32m[1mLinking C shared library libcustom_interface__rosidl_generator_c.so[0m
+[ 43%] Built target custom_interface__rosidl_generator_c
+[ 46%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface/srv/detail/my_service_message__type_support_c.cpp.o[0m
+[ 53%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 53%] Built target custom_interface__rosidl_typesupport_fastrtps_c
+[ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface/srv/my_service_message__type_support.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library libcustom_interface__rosidl_typesupport_c.so[0m
+[ 62%] Built target custom_interface__rosidl_typesupport_c
+[ 65%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 68%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface/srv/detail/my_service_message__type_support.c.o[0m
+[ 71%] [32m[1mLinking C shared library libcustom_interface__rosidl_typesupport_introspection_c.so[0m
+[ 71%] Built target custom_interface__rosidl_typesupport_introspection_c
+[ 71%] Built target custom_interface
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] Built target custom_interface__py
+[ 78%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_generator_py.dir/rosidl_generator_py/custom_interface/srv/_my_service_message_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/libcustom_interface__rosidl_generator_py.so[0m
+[ 81%] Built target custom_interface__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 87%] Built target custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 93%] Built target custom_interface__rosidl_typesupport_c__pyext
+[ 96%] [32mBuilding C object CMakeFiles/custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target custom_interface__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/ament_index/resource_index/rosidl_interfaces/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__struct.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__functions.c
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__functions.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__type_support.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/my_service_message.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/library_path.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__traits.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__builder.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__struct.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/my_service_message.hpp
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/dds_fastrtps
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__type_support.c
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__type_support.cpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/include/custom_interface/custom_interface/srv/detail/my_service_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/ament_index/resource_index/rust_packages/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/Cargo.toml
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/srv.rs
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/lib.rs
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/build.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/Cargo.toml
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/srv.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/lib.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/build.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/Cargo.toml
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/srv.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/src/lib.rs
+-- Up-to-date: /home/user/ros2_ws/install/custom_interface/share/custom_interface/rust/build.rs
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.sh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/pythonpath.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/libcustom_interface__rosidl_generator_py.so
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_my_service_message_s.c
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_my_service_message.py
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface'...
+Compiling '/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/__init__.py'...
+Listing '/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv'...
+Compiling '/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/__init__.py'...
+Compiling '/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/srv/_my_service_message.py'...
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/local/lib/python3.10/dist-packages/custom_interface/custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/user/ros2_ws/install/custom_interface/lib/libcustom_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/srv/MyServiceMessage.idl
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/srv/MyServiceMessage.srv
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/srv/MyServiceMessage_Request.msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/srv/MyServiceMessage_Response.msg
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/ament_index/resource_index/package_run_dependencies/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/ament_index/resource_index/parent_prefix_path/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/path.sh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/environment/path.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/local_setup.bash
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/local_setup.sh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/local_setup.zsh
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/package.dsv
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/ament_index/resource_index/packages/custom_interface
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/export_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/cmake/custom_interfaceConfig-version.cmake
+-- Installing: /home/user/ros2_ws/install/custom_interface/share/custom_interface/package.xml

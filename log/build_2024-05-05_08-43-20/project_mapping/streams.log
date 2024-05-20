@@ -1,0 +1,43 @@
+[4.531s] Invoking command in '/home/user/ros2_ws/src/project_mapping': PYTHONPATH=/home/user/ros2_ws/build/project_mapping/prefix_override:/home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_mapping build --build-base /home/user/ros2_ws/build/project_mapping/build install --record /home/user/ros2_ws/build/project_mapping/install.log --single-version-externally-managed
+[5.755s] running egg_info
+[5.755s] creating ../../build/project_mapping/project_mapping.egg-info
+[5.756s] writing ../../build/project_mapping/project_mapping.egg-info/PKG-INFO
+[5.756s] writing dependency_links to ../../build/project_mapping/project_mapping.egg-info/dependency_links.txt
+[5.757s] writing entry points to ../../build/project_mapping/project_mapping.egg-info/entry_points.txt
+[5.757s] writing requirements to ../../build/project_mapping/project_mapping.egg-info/requires.txt
+[5.757s] writing top-level names to ../../build/project_mapping/project_mapping.egg-info/top_level.txt
+[5.758s] writing manifest file '../../build/project_mapping/project_mapping.egg-info/SOURCES.txt'
+[5.759s] reading manifest file '../../build/project_mapping/project_mapping.egg-info/SOURCES.txt'
+[5.760s] writing manifest file '../../build/project_mapping/project_mapping.egg-info/SOURCES.txt'
+[5.761s] running build
+[5.761s] running build_py
+[5.761s] creating /home/user/ros2_ws/build/project_mapping/build
+[5.761s] creating /home/user/ros2_ws/build/project_mapping/build/lib
+[5.761s] creating /home/user/ros2_ws/build/project_mapping/build/lib/project_mapping
+[5.762s] copying project_mapping/__init__.py -> /home/user/ros2_ws/build/project_mapping/build/lib/project_mapping
+[5.762s] running install
+[5.762s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.762s]   warnings.warn(
+[5.763s] running install_lib
+[5.825s] creating /home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages/project_mapping
+[5.826s] copying /home/user/ros2_ws/build/project_mapping/build/lib/project_mapping/__init__.py -> /home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages/project_mapping
+[5.826s] byte-compiling /home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages/project_mapping/__init__.py to __init__.cpython-310.pyc
+[5.826s] running install_data
+[5.826s] creating /home/user/ros2_ws/install/project_mapping/share/ament_index
+[5.826s] creating /home/user/ros2_ws/install/project_mapping/share/ament_index/resource_index
+[5.826s] creating /home/user/ros2_ws/install/project_mapping/share/ament_index/resource_index/packages
+[5.827s] copying resource/project_mapping -> /home/user/ros2_ws/install/project_mapping/share/ament_index/resource_index/packages
+[5.827s] copying package.xml -> /home/user/ros2_ws/install/project_mapping/share/project_mapping
+[5.827s] creating /home/user/ros2_ws/install/project_mapping/share/project_mapping/launch
+[5.827s] copying launch/cartographer.launch.py -> /home/user/ros2_ws/install/project_mapping/share/project_mapping/launch
+[5.827s] copying launch/nav2_map_server.launch.py -> /home/user/ros2_ws/install/project_mapping/share/project_mapping/launch
+[5.828s] creating /home/user/ros2_ws/install/project_mapping/share/project_mapping/config
+[5.828s] copying config/cartographer.lua -> /home/user/ros2_ws/install/project_mapping/share/project_mapping/config
+[5.828s] creating /home/user/ros2_ws/install/project_mapping/share/project_mapping/maps
+[5.828s] copying maps/gazebo_map_generated.yaml -> /home/user/ros2_ws/install/project_mapping/share/project_mapping/maps
+[5.834s] copying maps/gazebo_map_generated.pgm -> /home/user/ros2_ws/install/project_mapping/share/project_mapping/maps
+[5.841s] running install_egg_info
+[5.841s] Copying ../../build/project_mapping/project_mapping.egg-info to /home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages/project_mapping-0.0.0-py3.10.egg-info
+[5.843s] running install_scripts
+[5.941s] writing list of installed files to '/home/user/ros2_ws/build/project_mapping/install.log'
+[6.065s] Invoked command in '/home/user/ros2_ws/src/project_mapping' returned '0': PYTHONPATH=/home/user/ros2_ws/build/project_mapping/prefix_override:/home/user/ros2_ws/install/project_mapping/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/project_mapping build --build-base /home/user/ros2_ws/build/project_mapping/build install --record /home/user/ros2_ws/build/project_mapping/install.log --single-version-externally-managed

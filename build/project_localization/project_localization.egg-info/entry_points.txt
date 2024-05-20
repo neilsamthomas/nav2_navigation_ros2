@@ -1,0 +1,3 @@
+[console_scripts]
+spots_to_file = project_localization.spots_to_file:main
+

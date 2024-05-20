@@ -1,0 +1,4 @@
+srv/MyServiceMessage.idl
+srv/MyServiceMessage.srv
+srv/MyServiceMessage_Request.msg
+srv/MyServiceMessage_Response.msg

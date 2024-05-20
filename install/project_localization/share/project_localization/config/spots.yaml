@@ -1,0 +1,38 @@
+move_to_spot:
+  ros__parameters:
+    corner1:
+      spot_name: "corner1"
+      position: 
+        x: 0.7315164755957311
+        y: 0.035658346875780976
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: -0.7359530366593066
+        w: 0.6770325899334132
+
+    corner2:
+      spot_name: "corner2"
+      position: 
+        x: -0.5489780467514145
+        y: -1.193533981152739
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.8772503499682033
+        w: 0.4800331483144314
+
+    pedestrian:
+      spot_name: "pedestrian"
+      position: 
+        x: -0.15201277694165832
+        y: -0.028812779635581015
+        z: 0.0
+      orientation: 
+        x: 0.0
+        y: 0.0
+        z: 0.1652255032723448
+        w: 0.9862558152266583
+

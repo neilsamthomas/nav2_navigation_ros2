@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/project_localization/project_localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/project_localization/project_localization.egg-info/dependency_links.txt
+writing entry points to ../../build/project_localization/project_localization.egg-info/entry_points.txt
+writing requirements to ../../build/project_localization/project_localization.egg-info/requires.txt
+writing top-level names to ../../build/project_localization/project_localization.egg-info/top_level.txt
+reading manifest file '../../build/project_localization/project_localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/project_localization/project_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+copying launch/localization.launch.py -> /home/user/ros2_ws/install/project_localization/share/project_localization/launch
+running install_egg_info
+removing '/home/user/ros2_ws/install/project_localization/lib/python3.10/site-packages/project_localization-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/project_localization/project_localization.egg-info to /home/user/ros2_ws/install/project_localization/lib/python3.10/site-packages/project_localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spots_to_file script to /home/user/ros2_ws/install/project_localization/lib/project_localization
+writing list of installed files to '/home/user/ros2_ws/build/project_localization/install.log'
