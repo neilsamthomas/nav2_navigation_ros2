@@ -20,4 +20,11 @@ This project demonstrates the implementation of the Nav2 stack in ROS2 Humble, c
 - **Description:** This module assigns goal positions to the robot based on data stored in a `.yaml` file.
 - **Features:**
   - Integrates with the ROS2 Navigation Stack to create optimal paths.
+  - Use this to save a new spot ros2 service call /save_spot custom_interface/srv/MyServiceMessage "label:corner1"
   - Use this to give the robot a goal position labeled as corner1: ros2 run project_path_planning go_to_pose --ros-args --params-file /home/user/ros2_ws/src/project_localization/config/spots.yaml -p spot_name:=corner1
+  - labels: 'corner1', 'corner2', 'pedestrian' (the point at the zebra crossing)
+ 
+
+https://github.com/user-attachments/assets/cae615dc-c3a2-4553-afd2-2ff47c4fa516
+
+
